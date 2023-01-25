@@ -8,7 +8,7 @@
     animation-name: fade;
     animation-duration: .5s;
 }
-.modal {
+.modal, .offer__slide {
     animation: fade;
     animation-duration: .5s;
 }
