@@ -1,4 +1,5 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto:300, 400, 700&display=swap&subset=cyrillic-ext);
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,400, 700&display=swap&subset=cyrillic-ext);
 * {
     box-sizing: border-box;
     margin: 0;
@@ -249,7 +250,7 @@ a {
     font-weight: 300;
     line-height: 21px;
 }
-.offer__slider {
+.offer__slider, .offer__slider2, .offer__slider3 {
     width: 650px;
     margin-top: 50px;
     display: flex;
@@ -263,29 +264,29 @@ a {
     font-size: 24px;
     color: rgba(0, 0, 0, 0.5);
 }
-.offer__slider-wrapper, .offer__slider-wrapper2 {
+.offer__slider-wrapper, .offer__slider-wrapper2, .offer__slider-wrapper3 {
     width: 100%;
     margin-top: 15px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.25);
 }
-.offer__slider-prev, .offer__slider-prev2 {
+.offer__slider-prev, .offer__slider-prev2, .offer__slider-prev3 {
     margin-right: 10px;
     cursor: pointer;
 }
-.offer__slider-next, .offer__slider-next2 {
+.offer__slider-next, .offer__slider-next2, .offer__slider-next3 {
     margin-left: 10px;
     cursor: pointer;
 }
-.offer__slider #current, .offer__slider #current2 {
+.offer__slider #current, .offer__slider2 #current2, .offer__slider3 #current3 {
     font-size: 48px;
     font-weight: 700;
     color: #000;
 }
-.offer__slide, .offer__slide2 {
+.offer__slide, .offer__slide2, .offer__slide3 {
     width: 100%;
     height: 390px;
 }
-.offer__slide img, .offer__slide2 img {
+.offer__slide img, .offer__slide2 img, .offer__slide3 img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -604,8 +605,4 @@ a {
     display: block;
     width: 280px;
     margin: 0 auto;
-}
-
-@media (max-width: 1024px) {
-
 }
