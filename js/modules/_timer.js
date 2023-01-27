@@ -1,4 +1,4 @@
-function timer() {
+function _timer() {
     const deadline = '2023-05-25';
 
     function getTimeRemaining(endTime) {
@@ -61,4 +61,5 @@ function timer() {
     setClock('.timer', deadline);
 }
 
-module.exports = timer;
+export default timer;
+// module.exports = timer;

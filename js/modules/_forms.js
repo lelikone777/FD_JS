@@ -1,4 +1,6 @@
-function forms() {
+import {closeModal, openModal} from './modal'
+
+function _forms() {
     const forms = document.querySelectorAll('form');
 
     const message = {
@@ -81,4 +83,5 @@ function forms() {
     //     .then(res => console.log(res));
 }
 
-module.exports = forms;
+export default forms;
+// module.exports = forms;

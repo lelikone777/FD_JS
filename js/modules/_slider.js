@@ -1,4 +1,4 @@
-function slider() {
+function _slider() {
     // Slider 1
     let slideIndex = 1;
     const slides = document.querySelectorAll('.offer__slide'),
@@ -275,4 +275,5 @@ function slider() {
     });
 }
 
-module.exports = slider;
+export default slider;
+// module.exports = slider;
